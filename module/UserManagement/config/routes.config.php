@@ -47,7 +47,7 @@ return [
                             'options' => [
                                 'route' => '/details/:id',
                                 'constraints' => [
-                                    'id' => '[0-9]+',
+                                    'id' => '[1-9]*',
                                 ],
                                 'defaults' => [
                                     'action' => 'details',
@@ -60,7 +60,7 @@ return [
                             'options' => [
                                 'route' => '/delete/:id',
                                 'constraints' => [
-                                    'id' => '[0-9]+',
+                                    'id' => '[1-9]*',
                                 ],
                                 'defaults' => [
                                     'action' => 'delete',
@@ -83,8 +83,8 @@ return [
                             'options' => [
                                 'route' => '/remove-from-group/:userId/:groupId',
                                 'constraints' => [
-                                    'userId' => '[0-9]+',
-                                    'groupId' => '[0-9]+',
+                                    'userId' => '[1-9]*',
+                                    'groupId' => '[1-9]*',
                                 ],
                                 'defaults' => [
                                     'action' => 'removeFromGroup',
@@ -129,7 +129,7 @@ return [
                             'options' => [
                                 'route' => '/delete/:id',
                                 'constraints' => [
-                                    'id' => '[0-9]+',
+                                    'id' => '[1-9]*',
                                 ],
                                 'defaults' => [
                                     'action' => 'delete',
