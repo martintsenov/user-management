@@ -14,15 +14,6 @@ return [
 
                 ],
             ],
-            'Db\Postgre' => [
-                'driver' => 'pgsql',
-                'hostname' => '',
-                'database' => '',
-                'username' => '',
-                'password' => '',
-                'schema' => '',
-                'port' => '',
-            ],
         ],
     ],
 ];

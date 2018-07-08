@@ -11,6 +11,9 @@ Installation
 1. To get all vendor dependencies download composer from https://getcomposer.org/download/ 
    (Manual Download, composer.phar) and then run `php composer.phar install`
 2. Prototype is build over Zend Framework and PHP.
+3. DB script in /data/user_management.sql
+4. Set Http server DocumentRoot to "<htdocs-folder-path>/user-management/public"
+5. Copy `configuration.php.example` as `configuration.php` and set the database credentials
 
 Requirements
 ------------
