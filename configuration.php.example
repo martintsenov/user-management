@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'env' => [],
+    'db' => [
+        'adapters' => [
+            'Db\Mysql' => [
+                'driver' => '',
+                'hostname' => '',
+                'database' => '',
+                'username' => '',
+                'password' => '',
+                'driver_options' => [
+
+                ],
+            ],
+            'Db\Postgre' => [
+                'driver' => '',
+                'hostname' => '',
+                'database' => '',
+                'username' => '',
+                'password' => '',
+                'schema' => '',
+                'port' => '',
+            ],
+        ],
+    ],
+];
