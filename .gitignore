@@ -1,5 +1,5 @@
 nbproject
 /vendor
 .htaccess
-composer.lock
 composer.phar
+.idea
